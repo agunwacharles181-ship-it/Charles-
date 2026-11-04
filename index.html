@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Charles is a web designer and developer creating beautiful, modern, and responsive digital experiences."
+    />
+    <title>Charles | Web Designer & Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header / Navigation -->
+    <header class="header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a href="#home" class="logo" aria-label="Home">Charles</a>
+
+        <button class="nav-toggle" aria-label="Open navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="home">
+        <div class="container hero-content">
+          <div class="hero-text reveal">
+            <p class="eyebrow">Web Designer & Developer</p>
+            <h1>Hi, my name is <span>Charles</span></h1>
+            <h2>I am a passionate web designer and developer who enjoys creating modern, responsive, and user-friendly websites. I am constantly learning new technologies and improving my skills through practical projects.</h2>
+            <p class="lead">
+              I design and develop responsive websites that help businesses stand out,
+              connect with users, and grow online.
+            </p>
+
+            <div class="cta-group">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+            </div>
+
+            <ul class="hero-stats" aria-label="Quick facts">
+              <li><strong>8+</strong><span>months Experience</span></li>
+              <li><strong>10</strong><span>Projects Done</span></li>
+              <li><strong>100%</strong><span>Client Focused</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="image-card">
+              <img
+                src="image/ai.png"
+                alt="Charles portrait"
+              />
+              <div class="floating-badge">Available for freelance work</div>
+              <div class="mini-card">
+                <span class="dot"></span>
+                <div>
+                  <strong>Creative UI</strong>
+                  <small>Design + Code</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-tag">About Me</p>
+            <h2>Designing thoughtful digital experiences.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-text reveal">
+              <p>
+                I am a web designer and developer with a passion for creating elegant,
+                user-friendly websites that balance aesthetics and performance. My work
+                combines creative direction, clean code, and a strong understanding of
+                user behavior.
+              </p>
+              <p>
+                From brand-focused landing pages to interactive business websites, I build
+                digital experiences that help people and brands communicate clearly and
+                confidently online.
+              </p>
+            </div>
+
+            <div class="about-highlights reveal">
+              <div class="highlight-card">
+                <span>01</span>
+                <h3>Strategy</h3>
+                <p>Clear planning to turn ideas into solutions that work.</p>
+              </div>
+              <div class="highlight-card">
+                <span>02</span>
+                <h3>Design</h3>
+                <p>Modern, visually appealing interfaces with a strong brand identity.</p>
+              </div>
+              <div class="highlight-card">
+                <span>03</span>
+                <h3>Development</h3>
+                <p>Responsive, fast, and accessible websites built with care.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills section" id="skills">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-tag">Skills</p>
+            <h2>Tools and technologies I use to bring ideas to life.</h2>
+          </div>
+
+          <div class="skill-grid">
+            <div class="skill-card reveal">
+              <div class="skill-icon">HTML</div>
+              <h3>HTML</h3>
+              <p>Semantic, accessible structure for high-quality web experiences.</p>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-icon">CSS</div>
+              <h3>CSS</h3>
+              <p>Modern styling, layout systems, and responsive design techniques.</p>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-icon">JS</div>
+              <h3>JavaScript</h3>
+              <p>Interactive functionality that improves usability and engagement.</p>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-icon">RWD</div>
+              <h3>Responsive Design</h3>
+              <p>Mobile-ready layouts that adapt beautifully across any screen size.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="projects section" id="projects">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-tag">Projects</p>
+            <h2>Selected work that blends creativity and function.</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <img
+                src="recipe/image/chef.jpg"
+                alt="Multi Recipe project preview"
+              />
+              <div class="project-content">
+                <h3>Multi Recipe</h3>
+                <p>
+                  A recipe showcase website featuring multiple dishes, quick browsing,
+                  and a clean food-focused layout built for easy discovery.
+                </p>
+                <a href="multi recipe/index.html" target="_blank" rel="noreferrer">View Project</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <img
+                src="recipe/image/beans.jpg"
+                alt="Recipe page project preview"
+              />
+              <div class="project-content">
+                <h3>Recipe Page</h3>
+                <p>
+                  A stylish cooking page with rich visuals, ingredient highlights, and a
+                  modern presentation for food content and restaurant branding.
+                </p>
+                <a href="recipe/recipe.html" target="_blank" rel="noreferrer">View Project</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <img
+                src="NGO page/image/group.jpg"
+                alt="NGO project preview"
+              />
+              <div class="project-content">
+                <h3>NGO Page</h3>
+                <p>
+                  A nonprofit landing page focused on community outreach, donor support,
+                  and impactful storytelling through a warm, engaging interface.
+                </p>
+                <a href="NGO page/ngo.html" target="_blank" rel="noreferrer">View Project</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <img
+                src="resturant page/image/booking.jpg"
+                alt="Restaurant project preview"
+              />
+              <div class="project-content">
+                <h3>Restaurant Page</h3>
+                <p>
+                  A premium restaurant website with a warm atmosphere, food highlights,
+                  and an elegant user experience designed to attract diners.
+                </p>
+                <a href="resturant page/restaurant.html" target="_blank" rel="noreferrer">View Project</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <img
+                src="blog/image/search.jpg"
+                alt="Blog project preview"
+              />
+              <div class="project-content">
+                <h3>Blog Page</h3>
+                <p>
+                  A blog layout designed for content sharing, article discovery, and a
+                  polished reading experience for a modern digital publication.
+                </p>
+                <a href="blog/blog.html" target="_blank" rel="noreferrer">View Project</a>
+              </div>
+            </article>
+            <article class="project-card reavel">
+              <img 
+              src="food website/image/rice.jpg"
+              alt="food website preview"
+              />
+              <div class="project-content">
+                <h3>Food Website</h3>
+                <p>A food website design for ordering of food at your comfort area</p>
+                <a href="food website/index.html" target="_blank" rel="noreferrer">view project</a>
+              </div>
+            </article>
+            <article class="project-card reavel">
+            <img 
+            src="weather app/image/wearther.jpg"
+            alt="weather app preveiw"
+            />
+            <div class="project-content">
+              <h3>Weather App</h3>
+              <p>A weather app design to forecast weather temperatures with current cities</p>
+              <a href="weather app/weather.html" target="_blank" rel="noreferrer">view project</a>
+            </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact section" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <p class="section-tag">Contact</p>
+            <h2>Let’s create something exceptional together.</h2>
+            <p>
+              I’m open to freelance projects, collaborations, and creative partnerships.
+              Reach out and let’s talk about your next website or digital idea.
+            </p>
+
+            <div class="contact-details">
+              <a href="mailto:charles@example.com">agunwacharles181@gmail.com</a>
+              <a href="tel:+1234567890">+234 8136569351
+                +234 9054305165
+              </a>
+            </div>
+
+            <div class="social-links" aria-label="Social media links">
+              <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+
+          <form class="contact-form reveal">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" placeholder="Your email" />
+            </label>
+
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Tell me about your project"></textarea>
+            </label>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Charles. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
